@@ -1,0 +1,103 @@
+{
+  "name": "Dhaman Manikanth",
+  "title": "Student Developer | Aspiring Entrepreneur | Content Creator",
+  "about": "I’m a student at NIAT - Nextwave Institute of Advanced Technologies, passionate about technology, startups, and creativity. My interests span across web development, AI/ML, content creation, and entrepreneurship. I enjoy building projects, websites, and tools that solve real-world problems, while also experimenting with creative storytelling through YouTube and Instagram. I strongly believe in networking, learning from peers, and growing together. My long-term vision is to create youth-driven startups that bring change with fun, learning, and collaboration.",
+  "avatar": "https://res.cloudinary.com/dpjcpchs6/image/upload/v1758552610/Screenshot_2025-01-03_093149_djlplt.png",
+  "location": "Hyderabad, India",
+  "skills": [
+    "HTML", "CSS", "JavaScript", "SQL", "React", "Express",
+    "Generative AI", "Conversational AI Chatbots", "RAG-based systems",
+    "CapCut Pro", "Canva", "Social Media Editing",
+    "Leadership", "Networking", "Personal Branding", "Communication"
+  ],
+  "experience": [
+    {
+      "company": "Gen AI Club",
+      "role": "Club Lead",
+      "period": "—",
+      "summary": "Conducted hackathons & workathons to bring students together and build AI projects."
+    },
+    {
+      "company": "Freelance",
+      "role": "Editor & Content Creator",
+      "period": "—",
+      "summary": "Edited videos using CapCut Pro; created Instagram reels & YouTube shorts."
+    },
+    {
+      "company": "Student Entrepreneur",
+      "role": "Dropshipping",
+      "period": "—",
+      "summary": "Started an online business to understand e-commerce and digital marketing and later he didn't continue it."
+    },
+    {
+      "company": "Zoho (Interview Selected)",
+      "role": "Internship — Data Analysis (Interview Stage)",
+      "period": "—",
+      "summary": "Explored SQL, data queries, and analytics."
+    },
+    {
+      "company": "Community",
+      "role": "Community Builder",
+      "period": "—",
+      "summary": "Organized and documented college activities and networking meetups."
+    }
+  ],
+  "projects": [
+    {
+      "name": "PhonePe Clone",
+      "description": "A responsive, mobile-first clone of the PhonePe payments experience. Built with semantic HTML, modern CSS (flexbox/grid), and vanilla JavaScript for interactive flows (amount entry, merchant selection, mock UPI confirmation). Focused on pixel-perfect UI, accessibility labels, and smooth transitions to mirror a real wallet app.",
+      "url": ""
+    },
+    {
+      "name": "BookMyShow Clone",
+      "description": "A clean and intuitive movie-ticket booking interface. Implemented responsive layouts, movie cards, seat-selection grid, and checkout summary with emphasis on typography, spacing, and consistent components. Optimized for performance with lean assets and minimal JS. Deployed preview available.",
+      "url": "https://bookmyshow02.niat.tech/"
+    },
+    {
+      "name": "RAG Project",
+      "description": "Retrieval-Augmented Generation system that indexes PDFs and answers questions grounded in the source. Pipeline includes document chunking, vector embeddings, similarity search, and LLM prompting that cites the most relevant chunks to improve factual accuracy.",
+      "url": ""
+    },
+    {
+      "name": "AI Chatbot",
+      "description": "Conversational assistant designed for interactive Q&A. Handles multi-turn context, safeguards off-topic queries, and formats concise answers. Built with a Node/Express backend and a modern frontend chat UI with typing indicators and suggested prompts.",
+      "url": ""
+    }
+  ],
+  "education": [
+    { "school": "NIAT - Nextwave Institute of Advanced Technologies", "degree": "BSC", "period": "2025-2027" }
+  ],
+  "events": [
+    "Fireside chat with Microsoft PM (Sandeep Chadda)",
+    "Sessions on personal branding (Harsha Verse) and youth events (Under25 Club)",
+    "College fests, podcasts, and networking events at IIIT Hyderabad"
+  ],
+  "achievements": [
+    "Selected for Zoho internship interview (Data Analysis)",
+    "Built a personal documentation series (Instagram reels Chapters 1–10)",
+    "Started YouTube channel to guide students with tech tools and productivity and also his personal journey"
+  ],
+  "interests": [
+    "Entrepreneurship & Startups",
+    "Web Development & AI",
+    "Video Editing & Storytelling",
+    "Networking & Youth Leadership",
+    "Gaming (Racing)"
+  ],
+  "links": {
+    "GitHub": "https://github.com/DhamanManikanth",
+    "YouTube": "https://www.youtube.com/@Dhaman_explores",
+    "LinkedIn": "https://www.linkedin.com/in/dhaman-manikanth-goli",
+    "Twitter": "https://x.com/Dhaman099",
+    "Portfolio": "https://stellar-portfolio-builder-x.lovable.app/"
+  },
+  "sampleQuestions": [
+    "Tell me about Dhaman's projects.",
+    "What internships or experiences does Dhaman have?",
+    "What tools does he use for editing?",
+    "What events has he attended?",
+    "What is his long-term vision?"
+  ]
+}
+
+

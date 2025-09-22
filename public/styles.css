@@ -1,0 +1,42 @@
+:root { --bg: #0b1020; --card: #111833; --text: #ffffff; --muted: #c7d2ff; --accent: #7dd3fc; --accent-2: #a78bfa; --chip: #142a55; --border: #28408a; --glow: #60a5fa; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; background: radial-gradient(1200px 800px at 10% 10%, rgba(96,165,250,0.12), transparent 50%), radial-gradient(1200px 800px at 90% 20%, rgba(167,139,250,0.10), transparent 50%), linear-gradient(180deg, #0a0f24 0%, #0b1020 60%, #0b1020 100%); color: var(--text); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+.container { max-width: 1100px; margin: 0 auto; padding: 16px; }
+.profile-header { display: flex; gap: 16px; align-items: center; }
+#avatar { width: 72px; height: 72px; border-radius: 50%; border: 2px solid var(--border); object-fit: cover; background: #222a4a; }
+h1 { margin: 0; font-size: 28px; }
+#title { margin: 4px 0 8px; color: var(--muted); }
+.links { display: flex; gap: 10px; flex-wrap: wrap; }
+.links a { color: #0b1020; text-decoration: none; border: 1px solid var(--border); padding: 6px 10px; border-radius: 999px; background: linear-gradient(135deg, var(--accent), var(--accent-2)); box-shadow: 0 0 0 transparent; transition: transform .15s ease, box-shadow .2s ease; }
+.links a:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(125, 211, 252, 0.25); }
+.grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; }
+.card { grid-column: span 6; background: linear-gradient(180deg, rgba(18,28,64,.9), rgba(14,22,56,.95)); border: 1px solid var(--border); border-radius: 14px; padding: 16px; box-shadow: 0 8px 28px rgba(96,165,250,0.08); backdrop-filter: blur(6px); transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; animation: fadeUp .6s ease both; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 16px 42px rgba(96,165,250,0.15); border-color: #3b66d8; }
+.card h2 { margin-top: 0; font-size: 18px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips .chip, .chips .chip-button { background: linear-gradient(135deg, rgba(20,42,85,0.9), rgba(30,58,138,0.7)); border: 1px solid var(--border); color: var(--text); padding: 6px 10px; border-radius: 999px; cursor: default; transition: transform .15s ease, box-shadow .2s ease, background .2s ease; }
+.chips .chip-button { cursor: pointer; }
+.chips .chip-button:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(96,165,250,0.18); }
+.chat { grid-column: span 12; }
+.chat-window { height: 360px; overflow: auto; border: 1px solid var(--border); border-radius: 12px; padding: 12px; background: linear-gradient(180deg, #0b1336, #0d1742); scroll-behavior: smooth; }
+.msg { display: flex; gap: 8px; margin: 10px 0; }
+.msg .role { font-weight: 600; width: 90px; color: var(--muted); }
+.msg .bubble { flex: 1; background: #0f1a3b; border: 1px solid var(--border); padding: 10px 12px; border-radius: 12px; white-space: pre-wrap; box-shadow: 0 4px 16px rgba(96,165,250,0.08); animation: fadeIn .35s ease both; }
+.msg.user .bubble { background: #15306b; }
+.msg.assistant .bubble { background: #0f1d57; }
+.chat-form { display: flex; gap: 8px; margin-top: 12px; }
+.chat-form input { flex: 1; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); background: #0e1630; color: var(--text); }
+.chat-form button { padding: 10px 16px; border-radius: 10px; border: 1px solid var(--border); background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #0b1020; font-weight: 800; cursor: pointer; box-shadow: 0 8px 22px rgba(125,211,252,.22); transition: transform .15s ease, box-shadow .2s ease; }
+.chat-form button:hover { transform: translateY(-2px); box-shadow: 0 14px 34px rgba(167,139,250,.25); }
+.footer { color: var(--muted); text-align: center; margin: 24px 0; }
+ .gradient-text { background: linear-gradient(135deg, #7dd3fc, #a78bfa); -webkit-background-clip: text; background-clip: text; color: transparent; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(10px);} to { opacity: 1; transform: translateY(0);} }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes typingDots { 0%{opacity:.2} 33%{opacity:1} 66%{opacity:.2} 100%{opacity:.2} }
+.typing { display: inline-flex; gap: 4px; align-items: center; }
+.typing .dot { width: 6px; height: 6px; border-radius: 999px; background: var(--muted); animation: typingDots 1.2s infinite; }
+.typing .dot:nth-child(2){ animation-delay: .2s; }
+.typing .dot:nth-child(3){ animation-delay: .4s; }
+@media (max-width: 900px) { .card { grid-column: span 12; } .profile-header { flex-direction: column; align-items: flex-start; } #avatar { width: 64px; height: 64px; } }
+
+
