@@ -7,7 +7,7 @@ module.exports = async (req, res) => {
     if (req.method !== 'POST') {
       return res.status(405).json({ error: 'Method not allowed' });
     }
-    const apiKey = process.env.API_KEY;
+    const apiKey = process.env.AIzaSyBhs_wYXoOERP3FqIfYzIWThsVdCuxPqFM;
     if (!apiKey) {
       return res.status(500).json({ error: 'Missing GEMINI_API_KEY in environment' });
     }
