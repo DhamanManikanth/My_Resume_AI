@@ -39,7 +39,7 @@ app.post('/api/chat', async (req, res) => {
       return res.status(400).json({ error: 'Missing message' });
     }
 
-    const apiKey = process.env.GEMINI_API_KEY;
+    const apiKey = process.env.API_KEY;
     if (!apiKey) {
       return res.status(500).json({ error: 'Missing GEMINI_API_KEY in environment' });
     }
